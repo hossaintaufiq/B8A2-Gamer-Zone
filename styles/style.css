@@ -285,6 +285,40 @@ font-size: 14px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
+/* box section */
+ .box-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 200px;
+  gap: 30px;
+ margin: 120px auto 127px auto;
+ 
+ 
+} 
+/* .boxes-1{
+  display: flex;
+}
+.boxes-2{
+  display: flex;
+} */
+.box{
+  display: flex;
+  width: 243px;
+height: 80px;
+border: 2px solid white;
+border-radius: 50px;
+background: #FFF; 
+text-align: center;
+align-items: center;
+gap: 2px;
+
+}
+.box:hover{
+  border: 2px solid #F948B2;
+  color: #F948B2;
+}
 /* footer section */
 footer{
   width: 100%;
