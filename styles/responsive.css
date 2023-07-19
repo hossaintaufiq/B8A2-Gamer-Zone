@@ -17,56 +17,64 @@
   }
   .banner-container {
     flex-direction: column-reverse;
-
   }
-  .banner-image{
+  .banner-image {
     margin-top: 20px;
     height: 500px;
     width: 350px;
   }
-  .text-elements{
+  .text-elements {
     height: 500px;
     width: 350px;
-
   }
-  .gamer-container{
+  .gamer-container {
     flex-direction: column;
     margin-top: 20px;
     height: 100%;
     width: 400px;
     padding: 0px;
   }
-  .gamer-image{
+  .gamer-image {
     /* height: 400px; */
     width: 400px;
   }
-  .gamer-text-container{
+  .gamer-text-container {
     text-align: center;
   }
-  .funny-gamer-container{
+  .funny-gamer-container {
     flex-direction: column;
-
   }
-  .card-container{
+  .card-container {
     flex-direction: column;
-
   }
-  .online-container{
+  .online-container {
     flex-direction: column-reverse;
     margin-top: 20px;
     height: 100%;
     width: 400px;
     padding: 10px;
   }
-  .img-1{
+  .img-1 {
     margin-top: 20px;
     height: 500px;
     width: 350px;
   }
-  .img-2{
+  .img-2 {
     width: 180px;
-height: 200px;
+    height: 200px;
     margin-top: -230px;
-  margin-left: 200px;
+    margin-left: 200px;
+  }
+  .manubar-container{
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  .terms-container{
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+  }
+  .copyright{
+    padding-left: 25px;
   }
 }
