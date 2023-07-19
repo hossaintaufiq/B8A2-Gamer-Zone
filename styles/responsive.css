@@ -19,5 +19,8 @@
     .nav-left{
 margin-top: 50px; 
     }
+    .banner-container{
+        flex-direction: column;
+    }
 
 }
