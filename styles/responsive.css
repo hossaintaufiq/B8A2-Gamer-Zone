@@ -65,16 +65,27 @@
     margin-top: -230px;
     margin-left: 200px;
   }
-  .manubar-container{
+  .manubar-container {
     flex-wrap: wrap;
     padding-left: 20px;
   }
-  .terms-container{
+  .terms-container {
     flex-wrap: wrap;
     padding-left: 20px;
-
   }
-  .copyright{
+  .copyright {
     padding-left: 25px;
+  }
+  .box-container {
+    padding: 30px 5px;
+  }
+  .box {
+    width: 100px;
+    height: 30px;
+    font-size: 6px;
+  }
+  .box-image{
+    width: 20px;
+    height: 20px;
   }
 }
