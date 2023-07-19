@@ -51,4 +51,22 @@
     flex-direction: column;
 
   }
+  .online-container{
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    height: 100%;
+    width: 400px;
+    padding: 10px;
+  }
+  .img-1{
+    margin-top: 20px;
+    height: 500px;
+    width: 350px;
+  }
+  .img-2{
+    width: 180px;
+height: 200px;
+    margin-top: -230px;
+  margin-left: 200px;
+  }
 }

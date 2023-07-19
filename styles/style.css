@@ -242,3 +242,46 @@ nav {
     ),
     url("../images/play-button\ 1.png"), lightgray 50% / cover no-repeat;
 }
+
+/* online section */
+.online-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+  padding: 0px 200px;
+  gap: 90px;
+}
+.img-1{
+
+}
+.img-2{
+  margin-top: -300px;
+  margin-left: 530px;
+
+}
+.play{
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-title{
+font-size: 43px;
+font-weight: 700;
+line-height: 60px; /* 125% */
+
+} 
+.anywhere{
+  color: #0B0223;
+font-size: 43px;
+font-weight: 700;
+line-height: 60px;
+}
+,online-description{
+  color: #534C64;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
