@@ -163,7 +163,7 @@ nav {
   justify-content: flex-end;
   /* align-items: center; */
   flex-direction: column;
-  text-align: end;
+  text-align: right ;
 }
 .gamer-title {
   font-size: 43px;
@@ -173,6 +173,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
+  /* text-align: right; */
 }
 .gamer-description {
   color: #534c64;
