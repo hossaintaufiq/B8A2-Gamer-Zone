@@ -79,7 +79,8 @@ nav {
   align-items: center;
 }
 .text-elements {
-  width: 901px;
+  /* width: 901px; */
+  width: 60%;
   height: 700px;
   background-image: url("../images/Group\ 14.png");
 }
@@ -297,12 +298,6 @@ line-height: 30px; /* 166.667% */
  
  
 } 
-/* .boxes-1{
-  display: flex;
-}
-.boxes-2{
-  display: flex;
-} */
 .box{
   display: flex;
   width: 243px;
@@ -332,6 +327,7 @@ color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   /* padding: 120px auto 130px auto; */
   /* margin: 120px auto 130px auto; */
 }
@@ -344,6 +340,7 @@ color: white;
 .manubar-container{
   margin-top: 66;
   display: flex;
+  /* flex-wrap: wrap; */
 
 }
 .manubar-elements{
