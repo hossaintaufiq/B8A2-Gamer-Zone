@@ -43,4 +43,12 @@
   .gamer-text-container{
     text-align: center;
   }
+  .funny-gamer-container{
+    flex-direction: column;
+
+  }
+  .card-container{
+    flex-direction: column;
+
+  }
 }

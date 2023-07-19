@@ -83,7 +83,7 @@ nav {
   height: 700px;
   background-image: url("../images/Group\ 14.png");
 }
-.text-elements-container{
+.text-elements-container {
   display: flex;
   align-items: center;
   /* text-align: start; */
@@ -143,48 +143,102 @@ nav {
   font-weight: 600;
 }
 /* gamer section */
-.gamer-container{
+.gamer-container {
   /* max-width: 1920px; */
-/* height: 600px; */
-height: 100%;
-background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 0px 200px;
+  /* height: 600px; */
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 200px;
 }
-.gamer-text-container{
+.gamer-text-container {
   display: flex;
   justify-content: flex-end;
   /* align-items: center; */
   flex-direction: column;
   text-align: end;
 }
-.gamer-title{
-font-size: 43px;
-font-weight: 700;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin-bottom: 20px;
+.gamer-title {
+  font-size: 43px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
 }
-.gamer-description{
-  color: #534C64;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-margin-bottom: 27px;
+.gamer-description {
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 27px;
 }
-.gamer-text-description{
-  color: #534C64;
-font-size: 20px;
-font-weight: 500;
-line-height: 40px; /* 187.5% */
+.gamer-text-description {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px; /* 187.5% */
 }
-.gamer-text-title{
-  color: #534C64;
-font-size: 27px;
-font-weight: 700;
-line-height: 40px;
+.gamer-text-title {
+  color: #534c64;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 40px;
+}
+/* funny section */
+.funny-gamer-container {
+  margin-top: 120px;
+}
+.funny-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 43px;
+  font-weight: 700;
+}
+.style {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 43px;
+  font-weight: 700;
+}
+.funny-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+/* card section */
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-description {
+  color: #534c64;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  width: 342px;
+}
+
+.card-image:hover {
+  border: 2px solid #f948b2;
+  /* background-image: url("../images/play-button\ 1.png"); */
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../images/play-button\ 1.png"), lightgray 50% / cover no-repeat;
 }
