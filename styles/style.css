@@ -163,16 +163,19 @@ nav {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   justify-content: space-around;
   align-items: center;
+  /* height: 600px; */
   padding: 0px 200px;
+  /* padding: 0px 20px; */
 }
 .gamer-text-container {
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
-  text-align: right;
+  align-items: end;
 }
 .gamer-title {
   font-size: 43px;
@@ -187,8 +190,14 @@ nav {
   color: #534c64;
   font-size: 15px;
   font-weight: 400;
+  text-align: end;
   line-height: 30px; /* 166.667% */
   margin-bottom: 27px;
+}
+.last-text{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .gamer-text-description {
   color: #534c64;

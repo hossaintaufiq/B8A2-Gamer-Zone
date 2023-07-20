@@ -31,28 +31,40 @@
     width: 100%;
   }
   .gamer-container {
-    flex-direction: column;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(1,1fr);
     margin-top: 20px;
     height: 100%;
     width: 400px;
     padding: 0px;
-    /* flex-wrap: wrap; */
-    /* new add */
   }
   .gamer-image {
     /* height: 400px; */
     width: 400px;
   }
-  .gamer-text-container {
-    text-align: center;
+  .gamer-text-container  {
+    align-items: center;
     flex-wrap: wrap;
   }
+  .gamer-description{
+    text-align: center;
+  }
+  
+  .gamer-text-title{
+    text-align: center;
+  }
+  .last-text{
+    align-items: center;
+  }
+  /* funny gamer section */
   .funny-gamer-container {
     flex-direction: column;
   }
   .card-container {
     flex-direction: column;
   }
+  /* online section */
+
   .online-container {
     flex-direction: column-reverse;
     margin-top: 20px;
@@ -71,6 +83,13 @@
     margin-top: -230px;
     margin-left: 200px;
   }
+  .online-title {
+    text-align: center;
+  }
+  .online-description{
+    text-align: center;
+  }
+  /* menu bar section */
   .manubar-container {
     flex-wrap: wrap;
     padding-left: 20px;
@@ -115,8 +134,24 @@
     grid-template-columns: repeat(1,1fr);
   }
   .gamer-container {
-    flex-direction: column;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(1,1fr);
+
   }
+  .gamer-text-container  {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .last-text{
+    align-items: center;
+  }
+  .gamer-description{
+    text-align: center;
+  }
+    .gamer-text-title{
+    text-align: center;
+  }
+  /* funny gamer section */
   .funny-gamer-container {
     flex-direction: column;
   }
@@ -143,6 +178,12 @@
     height: 200px;
     margin-top: -210px;
     margin-left: 150px;
+  }
+  .online-title {
+    text-align: center;
+  }
+  .online-description{
+    text-align: center;
   }
 
 
