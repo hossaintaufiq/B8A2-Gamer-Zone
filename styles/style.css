@@ -64,9 +64,6 @@ nav {
   padding-right: 16px;
   /* gap:20px */
 }
-.extra-link-details {
-}
-/* padding-right: 24px}*/
 .nav-icons {
   width: 33.916px;
   height: 24px;
@@ -111,15 +108,13 @@ nav {
 }
 .list-items{
   display: flex;
-  /* align-items: center; */
   justify-content: flex-start;
   flex-direction: column;
+  gap: 10px;
 }
 .list-item{
   display: flex;
   gap: 13px;
- 
-
 }
 .banner-description {
   color: #534c64;
