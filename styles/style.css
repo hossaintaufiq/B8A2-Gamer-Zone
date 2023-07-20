@@ -163,7 +163,7 @@ nav {
   justify-content: flex-end;
   /* align-items: center; */
   flex-direction: column;
-  text-align: right ;
+  text-align: right;
 }
 .gamer-title {
   font-size: 43px;
@@ -225,6 +225,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 48px;
+  padding: 0px 200px;
 }
 .card-description {
   color: #534c64;
@@ -233,20 +235,46 @@ nav {
   line-height: 30px; /* 150% */
   width: 342px;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-image-container {
+  position: relative;
+}
+.card-image {
+  display: block;
 
-.card-image:hover {
-  border: 2px solid #f948b2;
-  /* background-image: url("../images/play-button\ 1.png"); */
+  position: relative;
+}
+.image-overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  font-size: 16px;
+  color: #f948b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url("../images/play-button\ 1.png"), lightgray 50% / cover no-repeat;
+    lightgray 50%;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image-overley:hover {
+  opacity: 85%;
 }
 
 /* online section */
-.online-container{
+.online-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -254,76 +282,69 @@ nav {
   padding: 0px 200px;
   gap: 90px;
 }
-.img-1{
-
+.img-1 {
 }
-.img-2{
+.img-2 {
   margin-top: -300px;
   margin-left: 530px;
-
 }
-.play{
-
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.play {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.online-title{
-font-size: 43px;
-font-weight: 700;
-line-height: 60px; /* 125% */
-
-} 
-.anywhere{
-  color: #0B0223;
-font-size: 43px;
-font-weight: 700;
-line-height: 60px;
+.online-title {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
 }
-.online-description{
-  color: #534C64;
-font-size: 14px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+.anywhere {
+  color: #0b0223;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.online-description {
+  color: #534c64;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 /* box section */
- .box-container{
+.box-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 200px;
   gap: 30px;
- margin: 120px auto 127px auto;
- 
- 
-} 
-.box{
+  margin: 120px auto 127px auto;
+}
+.box {
   display: flex;
   width: 243px;
-height: 80px;
-border: 2px solid white;
-border-radius: 50px;
-background: #FFF; 
-text-align: center;
-align-items: center;
-gap: 2px;
-
+  height: 80px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: #fff;
+  text-align: center;
+  align-items: center;
+  gap: 2px;
 }
-.box:hover{
-  border: 2px solid #F948B2;
-  color: #F948B2;
+.box:hover {
+  border: 2px solid #f948b2;
+  color: #f948b2;
 }
 /* footer section */
-footer{
+footer {
   width: 100%;
-height: 636px;
-flex-shrink: 0;
-background: #0B0223;
-color: white;
+  height: 636px;
+  flex-shrink: 0;
+  background: #0b0223;
+  color: white;
 }
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -335,40 +356,37 @@ color: white;
 .gamer-title {
   display: flex;
   margin-top: 120px;
-  
-
 }
-.manubar-container{
+.manubar-container {
   margin-top: 66;
   display: flex;
   /* flex-wrap: wrap; */
-
 }
-.manubar-elements{
-  color: #FFF;
+.manubar-elements {
+  color: #fff;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
   margin-right: 20px;
 }
-.social{
+.social {
   display: flex;
   margin-top: 74px;
 }
-.social-icon{
+.social-icon {
   width: 40px;
-height: 40px;
-margin-right: 25px;
+  height: 40px;
+  margin-right: 25px;
 }
-.terms-container{
+.terms-container {
   display: flex;
   margin-top: 54px;
   margin-bottom: 25px;
 }
-.terms{
-  color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-margin-right: 20px;
+.terms {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
 }
