@@ -74,26 +74,22 @@ nav {
 }
 /* banner section styles */
 .banner-container {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
   justify-content: space-around;
   align-items: center;
 }
 .text-elements {
-  /* width: 901px; */
-  /* width: 60%; */
   height: 700px;
   background-image: url("../images/Group\ 14.png");
   background-repeat: no-repeat;
-  /* background:cover; */
 }
 .text-elements-container {
   display: flex;
   align-items: center;
-  /* text-align: start; */
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   flex-direction: column;
+  /* text-align: start; */
 }
 .banner-title {
   color: #0b0223;
@@ -112,6 +108,18 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.list-items{
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.list-item{
+  display: flex;
+  gap: 13px;
+ 
+
 }
 .banner-description {
   color: #534c64;
@@ -149,8 +157,6 @@ nav {
 }
 /* gamer section */
 .gamer-container {
-  /* max-width: 1920px; */
-  /* height: 600px; */
   height: 100%;
   background: linear-gradient(
     90deg,
@@ -165,7 +171,6 @@ nav {
 .gamer-text-container {
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
   flex-direction: column;
   text-align: right;
 }
@@ -177,7 +182,6 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
-  /* text-align: right; */
 }
 .gamer-description {
   color: #534c64;
