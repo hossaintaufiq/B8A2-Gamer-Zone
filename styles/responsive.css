@@ -17,16 +17,18 @@
     margin-top: 50px;
   }
   .banner-container {
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    grid-template-columns: repeat(1,1fr);
   }
   .banner-image {
     margin-top: 20px;
     height: 500px;
-    width: 350px;
+    width: 100%;
   }
   .text-elements {
     height: 500px;
     width: 350px;
+    width: 100%;
   }
   .gamer-container {
     flex-direction: column;
@@ -110,7 +112,7 @@
     margin-top: 50px;
   }
   .banner-container {
-    flex-direction: column-reverse;
+    grid-template-columns: repeat(1,1fr);
   }
   .gamer-container {
     flex-direction: column;

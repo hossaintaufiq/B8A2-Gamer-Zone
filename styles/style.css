@@ -74,15 +74,19 @@ nav {
 }
 /* banner section styles */
 .banner-container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   justify-content: space-around;
   align-items: center;
 }
 .text-elements {
   /* width: 901px; */
-  width: 60%;
+  /* width: 60%; */
   height: 700px;
   background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  /* background:cover; */
 }
 .text-elements-container {
   display: flex;
